@@ -219,7 +219,7 @@ const LossCalculator = () => {
               <CardContent className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="block text-sm font-medium text-gray-700">
-                    Valeur du contrat (€)
+                    Valeur du contrat (DZD)
                   </label>
                   <input
                     type="number"
@@ -231,7 +231,7 @@ const LossCalculator = () => {
                 </div>
                 <div className="space-y-2">
                   <label className="block text-sm font-medium text-gray-700">
-                    Coût de la main d&apos;œuvre (€)
+                    Coût de la main d&apos;œuvre (DZD)
                   </label>
                   <input
                     type="number"
@@ -243,7 +243,7 @@ const LossCalculator = () => {
                 </div>
                 <div className="space-y-2">
                   <label className="block text-sm font-medium text-gray-700">
-                    Coût des équipements (€)
+                    Coût des équipements (DZD)
                   </label>
                   <input
                     type="number"
@@ -255,7 +255,7 @@ const LossCalculator = () => {
                 </div>
                 <div className="space-y-2">
                   <label className="block text-sm font-medium text-gray-700">
-                    Coût de nettoyage par m² (€)
+                    Coût de nettoyage par m² (DZD)
                   </label>
                   <input
                     type="number"
