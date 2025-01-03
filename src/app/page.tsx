@@ -7,7 +7,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'rec
 import { AlertTriangle, Calculator, ClipboardList, FileText } from 'lucide-react';
 
 const LossCalculator = () => {
-  const [activeIncident, setActiveIncident] = useState(null);
+  const [activeIncident] = useState(null);
 
   // Données exemple pour le graphique
   const lossData = [
@@ -81,7 +81,7 @@ const LossCalculator = () => {
               <CardContent className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="block text-sm font-medium text-gray-700">
-                    Type d'incident
+                    Type d&#39;incident
                   </label>
                   <select className="w-full border rounded-lg p-2">
                     <option>Fuite</option>
@@ -161,10 +161,10 @@ const LossCalculator = () => {
               <CardContent>
                 <div className="space-y-4">
                   <div className="border-b pb-4">
-                    <h3 className="font-semibold mb-2">Synthèse de l'incident</h3>
+                    <h3 className="font-semibold mb-2">Synthèse de l&#39;incident</h3>
                     <p className="text-gray-600">
                       Fuite détectée sur le site A - Terminal 1 le 03/01/2025 à 08:30.
-                      Impact estimé : 1000 barils de pétrole brut, surface contaminée de 500m².
+                      Impact estimé : 1000 barils de pétrole brut, surface contaminée de 500m&#178;.
                     </p>
                   </div>
                   <div className="border-b pb-4">
