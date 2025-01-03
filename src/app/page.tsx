@@ -332,7 +332,7 @@ const LossCalculator = () => {
                     <h3 className="font-semibold mb-2">Impact sur la production</h3>
                     <ul className="space-y-2 text-gray-600">
                       <li>Production journalière : {formData.productionRate || 'N/A'} barils/jour</li>
-                      <li>Durée d'interruption : {formData.downtime || 'N/A'} jours</li>
+                      <li>Durée d&apos;interruption : {formData.downtime || 'N/A'} jours</li>
                       <li>Perte de production totale : {(parseFloat(formData.productionRate || '0') * parseFloat(formData.downtime || '0')).toLocaleString('fr-FR')} barils</li>
                     </ul>
                   </div>
@@ -340,7 +340,7 @@ const LossCalculator = () => {
                   <div className="border-b pb-4">
                     <h3 className="font-semibold mb-2">Coûts de réparation et nettoyage</h3>
                     <ul className="space-y-2 text-gray-600">
-                      <li>Main d'œuvre : {parseFloat(formData.laborCost || '0').toLocaleString('fr-FR')} €</li>
+                      <li>Main d&apos;œuvre : {parseFloat(formData.laborCost || '0').toLocaleString('fr-FR')} €</li>
                       <li>Équipements : {parseFloat(formData.equipmentCost || '0').toLocaleString('fr-FR')} €</li>
                       <li>Coût de nettoyage : {(parseFloat(formData.surfaceArea || '0') * parseFloat(formData.cleanupCost || '0')).toLocaleString('fr-FR')} €</li>
                     </ul>
@@ -349,7 +349,7 @@ const LossCalculator = () => {
                   <div className="mt-6">
                     <h3 className="font-semibold mb-2">Conclusion</h3>
                     <p className="text-gray-600">
-                      L'incident a généré une perte financière totale estimée à {totalLoss.toLocaleString('fr-FR')} €.
+                      L&apos;incident a généré une perte financière totale estimée à {totalLoss.toLocaleString('fr-FR')} €.
                       Les mesures de réparation et de nettoyage sont en cours, avec un impact significatif
                       sur la production et les engagements contractuels. Une révision des procédures de
                       sécurité et de maintenance préventive est recommandée pour éviter de futurs incidents similaires.
