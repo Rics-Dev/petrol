@@ -76,7 +76,7 @@ const LossCalculator = () => {
           <TabsContent value="saisie" className="space-y-4">
             <Card>
               <CardHeader>
-                <CardTitle>Informations de l'incident</CardTitle>
+                <CardTitle>Informations de l&apos;incident</CardTitle>
               </CardHeader>
               <CardContent className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
@@ -104,7 +104,7 @@ const LossCalculator = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle>Données de l'incident</CardTitle>
+                <CardTitle>Données de l&apos;incident</CardTitle>
               </CardHeader>
               <CardContent className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
@@ -145,7 +145,7 @@ const LossCalculator = () => {
                     <p className="text-2xl font-bold text-blue-600">640 000 €</p>
                   </div>
                   <div className="p-4 bg-gray-50 rounded-lg">
-                    <h3 className="font-semibold">Durée d'interruption estimée</h3>
+                    <h3 className="font-semibold">Durée d&apos;interruption estimée</h3>
                     <p className="text-2xl font-bold text-blue-600">72 heures</p>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ const LossCalculator = () => {
                     <h3 className="font-semibold mb-2">Recommandations</h3>
                     <p className="text-gray-600">
                       1. Renforcement immédiat des procédures de maintenance préventive
-                      2. Mise à jour du plan d'intervention d'urgence
+                      2. Mise à jour du plan d&apos;intervention d&apos;urgence
                       3. Formation supplémentaire du personnel de surveillance
                     </p>
                   </div>
