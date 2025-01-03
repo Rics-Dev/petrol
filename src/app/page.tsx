@@ -7,7 +7,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'rec
 import { AlertTriangle, Calculator, ClipboardList, FileText } from 'lucide-react';
 
 const LossCalculator = () => {
-  const [activeIncident, setActiveIncident] = useState(null);
+  const [activeIncident] = useState(null);
   const [formData, setFormData] = useState({
     incidentType: 'leak',
     site: 'site-a',
@@ -43,7 +43,7 @@ const LossCalculator = () => {
     ];
   };
 
-  const handleInputChange = (e: any) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
